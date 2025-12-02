@@ -3,9 +3,10 @@
 
 # But allow all .cpp files
 !*.cpp
+!*.txt
 
-# Also allow folders (so you can have organized folders like "arrays/", "dp/" etc.)
-!*/
+# # Also allow folders (so you can have organized folders like "arrays/", "dp/" etc.)
+# !*/
 
 # Optional: allow this gitignore file itself
 !.gitignore
