@@ -1,20 +1,11 @@
-# Build artifacts and directories
-build/
-cmake_build_debug/
-cmake_build_release/
-CMakeCache.txt
-CMakeFiles/
-cmake_install.cmake
-Makefile
-*.cmake
-install_manifest.txt
-
-# Compiled binaries and libraries
 *.out
+*.exe
 
-# Object files
+/[0-9]*
+!/[0-9]*.cpp
+!/[0-9]*.txt
+
 *.o
 *.obj
 
-# Allow .gitignore itself
 !.gitignore
