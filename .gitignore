@@ -1,11 +1,13 @@
+# Ignore everything
 *
 
+# But allow all .cpp files
 !*.cpp
-!*.txt
-!*.md
-!*.gitignore
 
-*.out
-*.exe
-*.o
-*.obj
+# Also allow folders (so you can have organized folders like "arrays/", "dp/" etc.)
+!*/
+
+# Optional: allow this gitignore file itself
+!.gitignore
+
+
